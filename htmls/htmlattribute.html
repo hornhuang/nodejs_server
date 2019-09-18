@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 笔记</title>
+</head>
+<body>
+    <!-- 超链接 -->
+    <!-- 跳转至新页面超链接 -->
+    <a href="https://www.bilibili.com/video/av5862916/?p=4" target="_blank">HTML5 标签教学链接</a>
+    <br></br>
+
+    <!-- 加粗文本 -->
+    <b>这既是加粗文本</b>
+    <br></br>
+
+    <!-- 这里是斜体 -->
+    <em>这里是斜体</em>
+    <br></br>
+
+    <!-- 这里是下划线 -->
+    <u>这里是下划线</u>
+    <br></br>
+
+    <!-- 这里是删除线 -->
+    <s>这里是删除线</s>
+    <br></br>
+
+
+
+
+
+    <br><br>
+    <!-- 这里是单页面刷新超链接 -->
+    <a href="https://www.bilibili.com/video/av5862916/?p=5">HTML5 表格教学链接</a>
+    <br></br>
+
+    <!-- 间隙为 1像素 位置居中的表单 -->
+    <!-- border 和 align 等属性在 css 中设置，html 中已不建议使用 -->
+    <table border="1px" align="center">
+        <!-- 表头 -->
+        <head>
+            <tr>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>学校</th>
+            </tr>
+        </head>
+        <!-- 表格主题 -->
+        <tbody>
+            <tr>
+                <td>name</td>
+                <td>女</td>
+                <td>黑龙江大学</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>女</td>
+                <td>黑龙江大学</td>
+            </tr>
+            <tr>
+                <td>name</td>
+                <td>女</td>
+                <td>黑龙江大学</td>
+            </tr>
+        </tbody>
+        <!-- 表脚 -->
+        <tfoot>
+            <tr>
+                <td>姓名</td>
+                <td>性别</td>
+                <td>学校</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- 间隙为 1像素 的表单 -->
+    <table border="1px">
+        <tr>
+            <th rowspan="2">姓名</th>
+            <th>性别</th>
+            <th>学校</th>
+            <th>学校</th>
+        </tr>
+        <tr>
+            <td colspan="2">黑龙江大学</td>
+            <td>黑龙江大学</td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>女</td>
+            <td>黑龙江大学</td>
+            <td>黑龙江大学</td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>女</td>
+            <td>黑龙江大学</td>
+            <td>黑龙江大学</td>
+        </tr>
+    </table>
+
+
+
+
+
+
+    <br><br>
+    <a href="https://www.bilibili.com/video/av5862916/?p=6" >HTML5 列表项教学链接</a>
+    <br></br>
+    <table>
+        <ol type="1">
+            <li>撒大大</li>
+            <li>阿萨达</li>
+                <!-- reversed 倒序 -->
+                <ol type="A" reversed>
+                    <li>撒打算的dsa</li>
+                    <li>撒打算的撒a</li>
+                    <li>撒擦三擦ca</li>
+                    <li>按时吃爱吃cds</li>
+                    <li>撒撒擦三下ac</li>
+                </ol>
+            <li>电风扇地方</li>
+            <li>上的 v 是 v</li>
+            <li>撒吃多少吃多少</li>
+                    <ol type="I">
+                        <li>大擦</li>
+                        <li>acacia</li>
+                        <li>撒擦三次</li>
+                        <li>啊啊大</li>
+                        <li>撒打算的</li>
+                    </ol>
+            <li>撒打算</li>
+            <li>撒发生擦</li>
+        </ol>
+
+    </table>
+    <!-- 无序标签 -->
+    <table></table>
+        <ul>
+            <li>大擦</li>
+            <li>acacia</li>
+            <li>撒擦三次</li>
+            <li>啊啊大</li>
+            <li>撒打算的</li>
+        </ul>
+    </table>
+
+
+
+
+
+
+
+    <br><br>
+    <a href="https://www.bilibili.com/video/av5862916/?p=7" >HTML5 表单（输入框）教学链接</a>
+    <br></br>
+    <form>
+        <!-- 单行文本框 -->
+        <input type="text">
+        <br>
+        <!-- 占位符 -->
+        <input type="text" value="控件的课打卡的看想看下阿森纳绚烂想安心了">
+        <br>
+        <!-- 不占文本框内的 -->
+        <input type="text" placeholder="控件的课打卡的看想看下阿森纳绚烂想安心了">
+        <br>
+        <!-- 最大能输入字符 -->
+        <input type="text" placeholder="maxlength" maxlength="8">
+        <br>
+        <!-- 拓宽单行文本框 -->
+        <input type="text" placeholder="控件的课" size="40">
+        <br>
+        <!-- 只读文本框 -->
+        <input type="text" value="控件的课打卡的看想看下阿森纳绚烂想安心了" readonly>
+        <br>
+        <!-- 密码 -->
+        <input type="password" placeholder="密码" >
+        <br>
+
+        <!-- 文本框 -->
+        <textarea>adscdsncldncldnscldnclsadncasclnsaklc nlkcnascnaklscnalsncalsncl</textarea>
+        <br>
+        <!-- 20行 文本框 -->
+        <textarea rows="20">adscdsncldncldnscldnclsadncasclnsaklc nlkcnascnaklscnalsncalsncl</textarea>
+    </form>
+</body>
+</html>

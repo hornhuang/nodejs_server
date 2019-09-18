@@ -1,0 +1,23 @@
+.text_main{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text_left{
+    background-color: darkblue;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text_right{
+    background-color: firebrick;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}

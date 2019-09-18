@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bac{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text{
+    align-content: center;
+    object-fit: cover;
+    font-size: 1vw;
+    color:#FFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.android_icon{
+    padding: 10px;
+    width: 3vw;
+    height: 3vw;
+}
+
+.font_div{
+    width: 75px;
+    font-size: 1vw;
+	text-align:center;   /* 水平居中 */
+    line-height: 5vw;  /* 垂直剧终 */
+    position: relative; 
+    vertical-align: inherit;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    /* text-align: center */
+}
+
+.top_30_height{
+    width: 100%;
+    height: 30%;
+}
+
+.andriod_developer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 7vw; 
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    color: #FFF;
+    font-family:"Times New Roman", Times, serif;
+}
+
+.blackColor{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.home_down_base{
+    background-color: gray;
+    width: 100%;
+    height: 15vw;
+}
+
+.introduce_base_div{
+    width: 100%;
+    height: 1000px;
+    align-content: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.introduce_top_text{
+    font-size: 50px;
+}
+
+.introduce_bottom_text{
+    font-size: 600px;
+}
+
+.round_icon{
+    width: 70%;
+    height: 70%;
+    padding-left: 200px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    /* width: 500px;
+    height: 500px; */
+    border-radius: 100%;
+    margin-left: -150px;
+}
+
+.introduce_horizonal{
+    align-content: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.introduce_match_parent{
+    width: 100%;
+    height: 100%;
+}
+
+.introduce_30_height{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.introduce_10_height{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.introduce_10_height{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.introduce_10_width{
+    height: 50px;;
+    width: 10%;
+}
+
+.introduce_20_width{
+    height: 10px;
+    width: 20%;
+}
+
+.introduce_20_height{
+    height: 20%;
+    align-content: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.introduce_top_text{
+    font-size: 50px;
+    padding-right: 25px;
+    padding-bottom: 3vw;
+}
+
+.introduce_bottom_text{
+    font-size: 30px;
+    padding-right: 25px;
+}
+
+.listdevider{
+    width: 100%;
+    height: 1px;
+    margin: 10px;
+}

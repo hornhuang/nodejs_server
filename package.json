@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mime.json": "^1.1.3"
+  }
+}
